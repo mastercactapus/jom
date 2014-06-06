@@ -1,0 +1,63 @@
+{
+  "id": 0,
+  "guid": "5763bac9-846e-4495-92a5-52b7bc8ddbe4",
+  "isActive": false,
+  "balance": "$3,291.73",
+  "picture": "http://placehold.it/32x32",
+  "age": 33,
+  "eyeColor": "blue",
+  "name": "Cobb Frye",
+  "gender": "male",
+  "company": "MANGELICA",
+  "email": "cobbfrye@mangelica.com",
+  "phone": "+1 (832) 529-3605",
+  "address": "753 Amherst Street, Franklin, Rhode Island, 4758",
+  "about": "Laborum ullamco cupidatat ullamco ad consectetur aute officia ea laborum. Do enim amet nostrud ad dolor ea commodo Lorem irure Lorem. Officia culpa elit sunt dolore ea.\r\n",
+  "registered": "2014-05-12T19:09:30 +05:00",
+  "latitude": 28.51632,
+  "longitude": -85.852388,
+  "settings": {
+    "language": "en",
+    "style": {
+      "theme": "default",
+      "font": "default"
+    }
+  },
+  "colors": [{
+    "selected": false,
+    "id": "red",
+    "value": "f00"
+  },{
+    "selected": true,
+    "id": "green",
+    "value": "0f0"
+  },{
+    "selected": false,
+    "id": "blue",
+    "value": "00f"
+  }],
+  "tags": [
+    "consequat",
+    "minim",
+    "dolore",
+    "tempor",
+    "aliqua",
+    "excepteur",
+    "incididunt"
+  ],
+  "friends": [
+    {
+      "rel": "best",
+      "name": "Eula Cross"
+    },
+    {
+      "rel": "jerk",
+      "name": "Susan Harper"
+    },
+    {
+      "rel": "other",
+      "name": "Corinne Bass"
+    }
+  ],
+  "favoriteFruit": "banana"
+}

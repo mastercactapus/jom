@@ -1,0 +1,9 @@
+function fastSet(object, pathspec, value) {
+	var props = pathspec.split(delim);
+<% var i,j,k %>
+<% for (i=0; i<8; i++) { %>
+	if (typeof props[<%= i+1 %>] === "undefined") return object<% for (j=0;j<=i;j++) { %>[props[<%= j %>]]<% } %> = value;
+	if (typeof object<% for (j=0;j<=i;j++) { %>[props[<%= j %>]]<% } %> !== "object") object<% for (j=0;j<=i;j++) { %>[props[<%= j %>]]<% } %> = {};
+<% } %>
+
+}
