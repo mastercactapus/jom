@@ -1,7 +1,12 @@
 var _ = require("lodash");
 var fs = require("fs");
 
-var data = fs.readFileSync("code.ejs").toString();
+var parse = require("./lib/map-parser.js");
+var mapping = require("./examples/example-mapping.js");
 
-fs.writeFileSync("code.js", _.template(data)());
+
+
+var act = parse.parse(mapping.map);
+
+console.log(act);
 
